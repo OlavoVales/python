@@ -1,0 +1,17 @@
+numero = int(input("Digite um numero: "))
+
+contador = 1
+
+#numerozao = numero * 100
+
+while #numerozao != numero:
+
+    numero2 = numero * contador + 1
+
+    numerocontagem = contador + 1
+
+    if numero2 % 2 == 0:
+        print(numero2)
+
+    if numerocontagem == 100:
+        break
