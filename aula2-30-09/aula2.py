@@ -1,4 +1,4 @@
-'''
+
 numero1str = input("Digite o 1o número: ")
 
 numero2str = input("Digite o 2o número: ")
@@ -14,9 +14,11 @@ print(numero1 - numero2)
 print(numero1 * numero2)
 
 print(numero1 / numero2)
-'''
 
-'''
+
+
+
+
 def capturar_dados():
     
     num1 = int(input("Digite o 1o número: "))
@@ -47,7 +49,9 @@ soma(num1,num2)
 subtracao(num1,num2)
 multiplicacao(num1,num2)
 divisao(num1,num2)
-'''
+
+
+
 
 def capturar_dados():
     
@@ -82,7 +86,8 @@ divisao(num1,num2)
 
 # pudim = 1;pudim2 = 2 <-certo, pudim 1 pudim 2 <- errado(Statements must be separated by newlines or semicolons)
 
-'''
+
+
+
 ;texto1 = houhouhou  *tem um ; escondido no inicio de cada linha, pro interpretador saber que ele terminou de ler aquela linha*
 ;texto2 = hihihi
-'''
