@@ -24,9 +24,10 @@ Onde a velocidade máxima permitida na rodovia é 90 Km/h e a mínima 30 Km/h
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 '''
 
-#1
 
 '''
+
+#1
 
 idade = int(input("qual a sua idade em anos? "))
 meses = int(input("quantos meses de idade? "))
@@ -36,13 +37,16 @@ diasIdade = ((idade * 365) + (meses * 30) + dias)
 
 print(f"A sua idade expressa em dias é: {diasIdade}")
 
-'''
-
 #CERTO
 
-#2
+'''
+
+
+
 
 '''
+
+#2
 
 custoFabrica = int(input("informe o custo de fabrica do carro: "))
 
@@ -54,13 +58,16 @@ custoFinalConsumidor = (percentualDistribuidor + impostos)
 
 print(f"o custo final  para o consumidor é de {custoFinalConsumidor} reais")
 
-'''
-
 #CERTO
 
-#3
+'''
+
+
+
 
 '''
+
+#3
 
 quantidadeEleitores = int(input("qual a quantidade de eleitores? "))
 
@@ -83,9 +90,14 @@ porcentagemvVotosValidos = ((votosValidos / quantidadeEleitores) * 100)
 
 print(f"em relação a quantidade total de eleitores,os votos brancos representam {porcentagemvVotosBrancos}% do total, os votos nulos {porcentagemvVotosNulos}% e os votos válidos {porcentagemvVotosValidos}%")
 
+#CERTO
+
 '''
 
-#CERTO
+
+
+
+'''
 
 #4
 
@@ -96,3 +108,11 @@ realPraDolar = ((real / 4.98))
 dolar = print(f"sua quantidade de doláres é: {realPraDolar}")
 
 #CERTO
+
+'''
+
+
+
+
+#5
+
