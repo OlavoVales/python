@@ -1,3 +1,5 @@
+#7
+
 x = 1
 
 while True:
@@ -12,3 +14,5 @@ while True:
     print(f"{numero} vezes {x} é igual a {multiplicacao}")
 
     x += 1
+
+#FEITO
