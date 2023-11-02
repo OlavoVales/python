@@ -10,8 +10,8 @@ x = 1
 while True:
     numero2 = numero * x
 
-    if numero2 % 0:
-     print(f"esses são so numero pares de {numero}: {numero2}") #tem que fazer
+    if numero2 % 2 == 0:
+     print(f"esses são so numero pares de {numero} vezes {x} : {numero2}") #tem que fazer
 
     x = x + 1
 

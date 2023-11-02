@@ -10,12 +10,11 @@ x = 1
 while True:
     numero2 = numero * x
 
-    if numero2 % 0:
+    if numero2 % 2 == 0:
      print(numero2) 
 
-    x = x + 1
+    x = x + 1 
     
-
     if x == 100:
         break
 
