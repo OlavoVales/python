@@ -14,6 +14,7 @@ while True:
      print(numero2) 
 
     x = x + 1
+    
 
     if x == 100:
         break
