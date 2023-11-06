@@ -1,13 +1,9 @@
 #8
 import random
 
-velocidade = (input("Qual era a velocidade no veículo no momento? "))
+try:
 
-multa = 0
-
-if velocidade:
-
-    velocidade = float(velocidade)
+    velocidade = float(input("Qual era a velocidade no veículo no momento? "))
 
     if velocidade < 30: 
 
@@ -18,8 +14,8 @@ if velocidade:
         valorMulta = velocidade - 90
 
         print(f"Devido a velocidade acima do permitido, o motorista deverá receber a multa num valor de {valorMulta * 7} reais. ")
-        
-else:   
+            
+except ValueError:   
 
     print("A velocidade não foi fornecida. ")
 
