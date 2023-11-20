@@ -84,6 +84,28 @@ subtracao(num1,num2)
 multiplicacao(num1,num2)
 divisao(num1,num2)
 
+#exemplo função básica:
+
+def media(a, b):
+    return (a+b)/2
+
+x = media(1, 3)
+
+print(x)
+
+
+# Parameters and arguments
+
+def add(a, b):          #the parameter is what is declared in the function, 
+#                       #while an argument is what is passed through when calling the function.
+    return (a + b)          
+#                       #a and b are the PARAMETERS, 5 and 4 are the ARGUMENTS
+add(5, 4)
+
+
+
+
+
 # pudim = 1;pudim2 = 2 <-certo, pudim 1 pudim 2 <- errado(Statements must be separated by newlines or semicolons)
 
 
